@@ -30,7 +30,7 @@ async function UserPage() {
           <div key={user.id} className="border my-2 p-4">
             <Link href={`/users/${user.id}`}>
               <div>{user.name}</div>
-              {/* <div>{user.email}</div> */}
+              <div>{user.email}</div>
             </Link>
           </div>
         ))}
